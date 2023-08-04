@@ -10,8 +10,8 @@ import { ContactPage } from './pages/Contact';
 function App() {
   return (
     <div>
-      <div className="App">
       <Navbar/> 
+      <div className="App">
         <Router>
           <Routes>
             <Route path='/' element={<HomePage/>} />            

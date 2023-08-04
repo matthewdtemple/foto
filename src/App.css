@@ -2,16 +2,51 @@
   background-color: #282c34;
   min-height: 100vh;
   display: flex;
-
 }
 
-.App-Navbar{
 
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #282c34;
+  width: 100%;
 }
 
-ul {
-  list-style-type: none;
-  margin: 10px;
-  padding: 10px;
+.nav-title{
+  color: white;
+  margin: 0;
+  padding: 10px 20px;
+  font-size: 24px;
+  font-family: Helvetica;
 }
 
+.nav-link {
+  color: white;
+  text-decoration: none;
+  padding: 10px 20px;
+  transition: background-color 0.3s;
+}
+
+.nav-links {
+  display: flex;
+  align-items: center;
+}
+
+.nav-link:hover {
+  background-color: #2a2b2e;
+}
+
+.nav-separator {
+  width: 1px;
+  background-color: white;
+  margin: 0 15px;
+}
+
+.about-text{
+  display: flex;
+  font-weight: bold;
+  padding: 10px 20px;
+  position: absolute;
+  top: 20%;
+}
