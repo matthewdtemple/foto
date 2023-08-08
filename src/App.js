@@ -13,9 +13,6 @@ import { EventsPage } from './pages/Images/Events';
 function App() {
   return (
     <div>
-      <center>
-        <a href="/" class="nav-title">Temple foto</a>
-      </center>
         <Navbar/> 
         <div className="App">
           <Router>
@@ -41,7 +38,6 @@ function App() {
               <Route path='/images/events' element={<EventsPage/>} />            
             </Routes>
           </Router>
-          <img class="homeimg" src="media/Florida.Day-7.jpg" />
         </div>
     </div>
   )

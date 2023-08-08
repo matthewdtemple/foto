@@ -1,13 +1,9 @@
-import { useState } from "react";
 export const HomePage = () => {
 
-    const [name, setName] = useState('Temple foto');
 
     return (
         <div>
-            <h1>
-               Home works, {name} is my name test
-            </h1>  
+            <img class="homeimg" src="media/Florida.Day-7.jpg" />
       </div>
     );
 };
