@@ -8,7 +8,6 @@ export const HomePage = () => {
             <h1>
                Home works, {name} is my name test
             </h1>  
-        <img src="Images/test.jpg"></img>
       </div>
     );
 };

@@ -1,45 +1,51 @@
 .App {
-  background-color: #282c34;
+  background-color: #c3ccde;
   min-height: 100vh;
   display: flex;
 }
 
 
 .navbar {
-  display: flex;
+  text-align: center;
   justify-content: space-between;
   align-items: center;
-  background-color: #282c34;
+  background-color: #c3ccde;
   width: 100%;
 }
 
 .nav-title{
-  color: white;
+  text-align: center;
+  background-color: #c3ccde;
+  color: rgb(54, 53, 53);
   margin: 0;
+  text-decoration: none;
+  display: flex;
   padding: 10px 20px;
-  font-size: 24px;
+  font-size: 60px;
+  font-style: bold;
   font-family: Helvetica;
 }
 
 .nav-link {
-  color: white;
+  color: rgb(54, 53, 53);
   text-decoration: none;
+  font-weight: bold;
   padding: 10px 20px;
   transition: background-color 0.3s;
 }
 
 .nav-links {
-  display: flex;
   align-items: center;
+  display: inline-block;
 }
 
 .nav-link:hover {
-  background-color: #2a2b2e;
+  color: rgb(54, 53, 53);
 }
 
 .nav-separator {
   width: 1px;
-  background-color: white;
+  color: rgb(54, 53, 53);
   margin: 0 15px;
 }
 
@@ -49,4 +55,12 @@
   padding: 10px 20px;
   position: absolute;
   top: 20%;
+}
+
+.homeimg{
+  position: absolute;
+  top: 20%;
+  left: 20%;
+  width: 60%;
+  height: 60%;
 }
