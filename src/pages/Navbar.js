@@ -1,16 +1,16 @@
 export const Navbar = () => {
     return (
         <div>
-        <nav class="navbar">
-        <a href="/" class="nav-title">Temple foto</a>
+        <nav>
+        <a href="/" >Temple foto</a>
         <br/>
-            <div class="nav-links">
-                <a href="/images/street" class="nav-link">Street</a> 
-                <a href="/images/landscapes" class="nav-link">Landscapes</a> 
-                <a href="/images/events" class="nav-link">Events</a> 
-                <a href="/images/film" class="nav-link">Film</a> 
-                <a href="/about" class="nav-link">About</a> 
-                <a href="/contact" class="nav-link">Contact</a>                       
+            <div>
+                <a href="/images/street" >Street</a> 
+                <a href="/images/landscapes" >Landscapes</a> 
+                <a href="/images/events" >Events</a> 
+                <a href="/images/film" >Film</a> 
+                <a href="/about" >About</a> 
+                <a href="/contact" >Contact</a>                       
            </div>
         </nav>
         </div>

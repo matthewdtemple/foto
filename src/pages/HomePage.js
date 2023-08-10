@@ -3,7 +3,7 @@ export const HomePage = () => {
 
     return (
         <div>
-            <img class="homeimg" src="media/Florida.Day-7.jpg" />
+            <img class="test"src="media/test-bg.jpg" />
       </div>
     );
 };
